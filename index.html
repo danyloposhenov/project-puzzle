@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="time">
+            <span class="time-minute">01</span>
+            <span>:</span>
+            <span class="time-second">00</span>
+        </div>
+        <div class="button">
+            <button type="button" class="btn-start buttons">Start game!</button>
+            <button class="btn-check buttons">Check result</button>
+            <button class="btn-refresh buttons">New game</button>
+        </div>
+        <div class="puzzle">
+            <div id="start" class="box">
+                <div class="box-puzzle puzzle1" value="1"></div>
+                <div class="box-puzzle puzzle2" value="2"></div>
+                <div class="box-puzzle puzzle3" value="3"></div>
+                <div class="box-puzzle puzzle4" value="4"></div>
+                <div class="box-puzzle puzzle5" value="5"></div>
+                <div class="box-puzzle puzzle6" value="6"></div>
+                <div class="box-puzzle puzzle7" value="7"></div>
+                <div class="box-puzzle puzzle8" value="8"></div>
+                <div class="box-puzzle puzzle9" value="9"></div>
+                <div class="box-puzzle puzzle10" value="10"></div>
+                <div class="box-puzzle puzzle11" value="11"></div>
+                <div class="box-puzzle puzzle12" value="12"></div>
+                <div class="box-puzzle puzzle13" value="13"></div>
+                <div class="box-puzzle puzzle14" value="14"></div>
+                <div class="box-puzzle puzzle15" value="15"></div>
+                <div class="box-puzzle puzzle16" value="16"></div>
+            </div>
+            <div id="end" class="drop">
+                <div class="box-puzzle2"></div>
+                <div class="box-puzzle2"></div>
+                <div class="box-puzzle2"></div>
+                <div class="box-puzzle2"></div>
+                <div class="box-puzzle2"></div>
+                <div class="box-puzzle2"></div>
+                <div class="box-puzzle2"></div>
+                <div class="box-puzzle2"></div>
+                <div class="box-puzzle2"></div>
+                <div class="box-puzzle2"></div>
+                <div class="box-puzzle2"></div>
+                <div class="box-puzzle2"></div>
+                <div class="box-puzzle2"></div>
+                <div class="box-puzzle2"></div>
+                <div class="box-puzzle2"></div>
+                <div class="box-puzzle2"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-container">
+        <div class="modal">
+            <div class="modal-text">
+                <span id="text">You still have time, you sure?</span>
+                <span class="time-minute">01</span>
+                <span>:</span>
+                <span class="time-second">00</span>
+            </div>
+            <div class="modal-btn">
+                <button class="modal-btn__close buttons">Close</button>
+                <button class="modal-btn__check buttons">Check</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
